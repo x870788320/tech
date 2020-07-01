@@ -6,8 +6,14 @@
 </template>
 
 <script>
+// import { ObserverEvent } from "@/config/until"
 export default {
-    name:"login"
+    name:"login",
+    mounted(){
+        
+// const ssaa = ObserverEvent.trigger('ACTION_GO_LOGIN',"nishuodedui")
+// console.log(ssaa)
+    }
 }
 </script>
 

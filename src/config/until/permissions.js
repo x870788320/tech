@@ -22,9 +22,10 @@ export const hasPermission = permissions => {
 
 export const vGradeInfo = function(role) {
     try {
+        //如果new了，true,
         return this instanceof vGradeInfo ? new this[role](): new vGradeInfo(role);
     } catch {
-        //如果不需要默认项则抛出错误
+        //抛出错误
         // throw new Error('参数错误, 可选参数:"v1","v2","v3","v4","v5"'); 
 
         console.log('参数错误, 可选参数:"v1","v2","v3","v4","v5", 默认: "v1"')

@@ -1,6 +1,6 @@
 import Vue from "vue"
 import Vuex from 'vuex'
-import { getTest1 } from "@/until/interface"
+import { getTest1 } from "@/config/until/interface"
 
 Vue.use(Vuex)
 

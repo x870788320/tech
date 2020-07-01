@@ -15,6 +15,7 @@ const install = Vue => {
     Vue.prototype.$msg = "全局状态"
     Vue.prototype.$Method = function(){
         console.log("全局方法")
+        return false;
     }
 
     //公共组件放到vue

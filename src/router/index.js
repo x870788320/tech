@@ -24,9 +24,9 @@ const router = new Router({
     mode: 'history',
     routes: [{
             path: "/",
-            name: "home",
+            name: "lottery",
             component: () =>
-                import ('../pages/Home')
+                import ('../pages/Lottery2')
         },
         ...routeList,
         {
