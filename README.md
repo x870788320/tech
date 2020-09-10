@@ -1,29 +1,10 @@
-# gistest
 
-## Project setup
-```
-npm install
-```
+这个可以作为vue文件的模板，有待优化
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+封装了插件，自定义指令和全局组件，在src下config文件
 
-### Compiles and minifies for production
-```
-npm run build
-```
+定义了全局的常量可以使用
 
-### Run your tests
-```
-npm run test
-```
+配置axios，初步实现接口统一管理
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+没有配置less
